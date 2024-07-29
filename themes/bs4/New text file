@@ -1,0 +1,11 @@
+const {vehicles} = this.state.data;
+
+    return (
+      <div className="">
+        <header className="">
+          {vehicles.map(obj => (
+            <h5 key={obj.detailKey}>{obj.model}</h5>
+          ))}
+        </header>
+      </div>
+    );

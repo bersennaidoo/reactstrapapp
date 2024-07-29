@@ -1,4 +1,9 @@
-baseURL: https://example.org/
+baseURL: https://reactstrapapp.netlify.app/
 languageCode: en-us
 title: Hugo Reactstrap App
 theme: bs4
+
+module:
+  mounts:
+    - source: "node_modules/bootstrap"
+      target: "assets/bootstrap"
