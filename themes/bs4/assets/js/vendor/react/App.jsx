@@ -26,13 +26,18 @@ class App extends React.Component {
   }
 
   render() {
+    const { vehicles } = this.state.data;
     if (this.state.data) {
       return (
         <Router>
           <div className="">
-            <TopNav />
+            <TopNav vehicleData={vehicles} />
             <div className="contentAread">
-              <Route exact path="/" component={Home} />
+              <Route
+                exact
+                path="/car-dealership"
+                render={(props) => <Home {...props} vehicleData={vehicles} />}
+              />
             </div>
             <Footer />
           </div>

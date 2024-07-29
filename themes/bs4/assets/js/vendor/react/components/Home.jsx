@@ -11,9 +11,8 @@ class Home extends React.Component {
     render() {
         return (
             <div>
-                <p>Test</p>
-                <SiteCarousel />
-                <VehicleBrowser />
+                <SiteCarousel vehicleData={this.props.vehicleData} />
+                <VehicleBrowser vehicleData={this.props.vehicleData} />
             </div>
         )
     }
