@@ -1,0 +1,32 @@
+{
+  "comments": {
+    "dependencies": {
+      "axios": "bs4",
+      "bootstrap": "bs4",
+      "faker": "bs4",
+      "lodash": "bs4",
+      "numeral": "bs4",
+      "react": "bs4",
+      "react-dom": "bs4",
+      "react-router-dom": "bs4",
+      "react-scripts": "bs4",
+      "reactstrap": "bs4"
+    },
+    "devDependencies": {}
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^4.1.1",
+    "faker": "^4.1.0",
+    "lodash": "^4.17.10",
+    "numeral": "^2.0.6",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^1.1.4",
+    "reactstrap": "^6.1.0"
+  },
+  "devDependencies": {},
+  "name": "reactstrapapp",
+  "version": "0.1.0"
+}
